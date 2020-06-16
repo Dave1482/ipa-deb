@@ -28,12 +28,14 @@ Bash
 ./ipa-deb.sh
 ```
 
-1. Type the ipa file name.
+1. Download an ipa file and place it in the same folder the script is in
+
+2. Type the ipa file name.
 Example:
 ```bash
 ipaname
 ```
-2. Leave it running until it prompts your to enter the control file fields.
+3. Leave it running until it prompts you to enter the control file fields.
 
 ## Control File
 Bundle ID:
