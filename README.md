@@ -1,4 +1,4 @@
-# iPA-Deb
+# IPA-DEB
 
 This is a tool to turn any ipa into an installable deb file for jailbroken iOS devices.
 
@@ -41,7 +41,7 @@ Example:
 ```bash
 App Name
 ```
-Varsion:
+Version:
 Example:
 ```bash
 1.0.0
@@ -56,7 +56,7 @@ Example:
 ```bash
 Username
 ```
-Auther:
+Author:
 Example:
 ```bash
 Username
