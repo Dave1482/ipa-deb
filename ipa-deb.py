@@ -56,12 +56,12 @@ os.chdir('DEBIAN')
 
 print("Making control File")
 
-bid = input("Bundle ID: ")
+bid = input("Package ID: ")
 name = input("Name: ")
 ver = input("Version: ")
 desc = input("Description: ")
 maintain = input("Maintainer: ")
-auth = input("Auther: ")
+auth = input("Author: ")
 
 f = open('control',"w+")
 
@@ -71,29 +71,21 @@ f.close()
 
 print("Done With Control File...") 
 
-os.chdir('../../')
+os.chdir('../')
 
 print("Packaging Deb..")
 
-os.system('dpkg-deb -b Extracted')
+os.system('dpkg-deb -b . ..')
+
+os.chdir('../')
 
 print("Cleaning Up..")
 
-source2 = 'Extracted.deb'
-dest2 = ''+file+'.deb'
+source2 = ''+file+'.zip'
+dest2 = ''+file+'.ipa'
 
-os.rename(source2, dest2) 
-
-source3 = ''+file+'.zip'
-dest3 = ''+file+'.ipa'
-
-os.rename(source3, dest3) 
+os.rename(source2, dest2)
 
 removedir = "Extracted"
 
 shutil.rmtree(removedir)
-
-
-
-
-
