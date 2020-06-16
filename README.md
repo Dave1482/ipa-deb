@@ -72,7 +72,7 @@ Username
 This tool makes it easy to create packages and it takes no time at all :)
 
 
-## Developer's Websites
+## Developers' Websites
 
 [Casp's Website](https://casp.dev)
 
