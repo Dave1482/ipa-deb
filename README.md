@@ -4,23 +4,28 @@ This is a tool to turn any ipa into an installable deb file for jailbroken iOS d
 
 ## Setup
 
-1. Make a folder and put ipa-deb.py & your iPA in the folder.
+1. Make a folder and put ipa-deb.py or ipa-deb.sh & your iPA in the folder.
 2. Open Terminal and cd into thet folder.
 3. Give the script permissions shown below
 ```bash
-chmod +x ipa-deb.py
+chmod +x ipa-deb*
 ```
 
 ## Requirements
 
-1. MacOS or a jailbroken iOS device.
-2. Python3
-3. Install DPKG
+1. Device with dpkg 
+2. Python3 or bash
+3. Terminal
 
 ## How To Use
 
+Python3
 ```bash
 python3 ipa-deb.py
+```
+Bash
+```bash
+./ipa-deb.sh
 ```
 
 1. Type the ipa file name.
