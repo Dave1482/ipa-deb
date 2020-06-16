@@ -38,7 +38,7 @@ ipaname
 3. Leave it running until it prompts you to enter the control file fields.
 
 ## Control File
-Bundle ID:
+Package ID:
 Example:
 ```bash
 com.example.app
@@ -74,8 +74,6 @@ Username
 This tool makes it easy to create packages and it takes no time at all :)
 
 
-## Developers' Websites
+## Original Developer's Website
 
 [Casp's Website](https://casp.dev)
-
-[Dave1482's Website](http://dave1482.com)
