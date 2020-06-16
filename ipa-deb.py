@@ -16,13 +16,13 @@ print('''
 
 print('By CaspD3V ;)')
 
-file = input("iPA File Name: ")
+file = input("IPA File Name: ")
 
 source = ''+file+'.ipa'
 dest = ''+file+'.zip'
 
 os.rename(source, dest) 
-print("Turning iPA Into ZIP...") 
+print("Turning IPA Into ZIP...") 
 print("Done Renaming.") 
 
 with zipfile.ZipFile(''+file+'.zip', 'r') as zip_ref:
@@ -56,12 +56,12 @@ os.chdir('DEBIAN')
 
 print("Making control File")
 
-bid = input("Package ID: ")
-name = input("Name: ")
-ver = input("Version: ")
-desc = input("Description: ")
-maintain = input("Maintainer: ")
-auth = input("Author: ")
+bid = input("Package ID (ex: com.yourname.yourpackagename) : ")
+name = input("Name (ex: YourPackageName) : ")
+ver = input("Version (ex: 1.0.0) : ")
+desc = input("Description (ex: An awesome App!): ")
+maintain = input("Maintainer (ex: YourName <your@email.com>): ")
+auth = input("Author (ex: YourName <your@email.com>): ")
 
 f = open('control',"w+")
 
