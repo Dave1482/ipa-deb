@@ -72,6 +72,7 @@ Username
 This tool makes it easy to create packages and it takes no time at all :)
 
 
-## Licence
+## Developer's Websites
 
 [Casp's Website](https://casp.dev)
+[Dave1482's Website](http://dave1482.com)
